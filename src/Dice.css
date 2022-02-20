@@ -1,0 +1,23 @@
+
+
+@keyframes shake {
+    0%  {}
+    25%  {transform: rotate(-50deg);}
+    50%  {transform: rotate(50deg);}
+    75% {transform: rotate(-50deg);}
+    99%  {transform: rotate(50deg);}
+    100% {transform: rotate(1deg);}
+}
+
+.dado {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 10em;
+    color: #480ca8;
+}
+
+.animate {
+    animation-name: shake;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}

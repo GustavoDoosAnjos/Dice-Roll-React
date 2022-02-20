@@ -1,0 +1,29 @@
+.container {
+    padding: 10em;
+    text-align:center;
+}
+
+.botao {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 4em;
+    border-radius: 10px;
+    color: #ffff;
+    background-color: #4cc9f0;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-top: none;
+    border-left: none;
+}
+
+.dados {
+    display: flex;
+    justify-content: center;
+}
+
+.botao:active {
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
